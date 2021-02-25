@@ -1,23 +1,14 @@
-#include <stdio.h>
-
-int main() {
-int i,sum=1;
-int a[3];
-for(i=0;i<3;i++){
-scanf("%d",&a[i]);
-}
-for(i=0;i<3;i++){
-sum=sum+a[i];
-}
-if(sum%3==0)
+#include<stdio.h>
+int main(int argc, char const *argv[])
 {
-	printf("no\n");
-}
-else
-{
-	printf("yes\n");
-}
-
-
-	return 0;
+    int i,a[10],sum,n;
+    for(i=0;i<n;i++)
+    {
+    scanf("%d",&a[i]);
+    }
+    sum=sum+a[i];
+    for(i=0;i<n;i++){
+    printf("%d",a[i]);
+    }
+    return 0;
 }
